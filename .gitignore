@@ -1,8 +1,6 @@
-.dart_tool/
-.packages
-build/
-.flutter-plugins
-.flutter-plugins-dependencies
-.idea/
-*.iml
-pubspec.lock
+.env
+.env.*
+!.env.example
+backend/supabase/.temp/
+backend/supabase/.branches/
+node_modules/
