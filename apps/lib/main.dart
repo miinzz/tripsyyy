@@ -29,7 +29,7 @@ class TripsyApp extends StatelessWidget {
 Route<dynamic> _onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {
     case '/explore':
-      return _page(settings, const PlaceholderPage(title: 'Jelajahi'));
+      return _page(settings, const PlaceholderPage(title: 'Explore'));
     case '/itinerary':
       return _page(settings, const PlaceholderPage(title: 'Itinerary'));
     case '/auth':
