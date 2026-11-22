@@ -12,13 +12,13 @@ class _Feature {
 }
 
 const _features = <_Feature>[
-  _Feature('Pencarian Personal', 'Temukan tempat wisata sesuai minat.'),
+  _Feature('Personal Picks', 'Temukan tempat wisata sesuai minat.'),
   _Feature(
-    'Itinerary Pintar',
+    'Smart Itenerary',
     'Susun rencana perjalanan sesuai preferensi dan waktu.',
   ),
   _Feature(
-    'Berbagi Rencana',
+    'Travel Sync',
     'Bagikan rencana perjalanan dengan teman atau keluarga.',
   ),
 ];
