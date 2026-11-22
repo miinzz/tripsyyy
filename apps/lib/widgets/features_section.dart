@@ -42,9 +42,9 @@ class FeaturesSection extends StatelessWidget {
       child: AppContainer(
         child: Column(
           children: [
-            Text(
+            const Text(
               'FITUR',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 14,
                 height: 1.43,
                 fontWeight: FontWeight.w600,
