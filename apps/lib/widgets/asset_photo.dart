@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Gambar aset (object-cover). Jika file belum ada, tampil placeholder
-/// sehingga aplikasi tetap bisa dijalankan.
 class AssetPhoto extends StatelessWidget {
   const AssetPhoto(this.path, {super.key, this.semanticLabel});
 
