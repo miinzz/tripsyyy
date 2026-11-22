@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../theme.dart';
 
-/// Logo Tripsy. Jika `tripsy-logo.png` belum ada, tampil ikon pin lokasi.
 class TripsyLogo extends StatelessWidget {
   const TripsyLogo({super.key, required this.size});
 

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../theme.dart';
 
-/// Setara `container mx-auto px-4` pada Tailwind.
 class AppContainer extends StatelessWidget {
   const AppContainer({super.key, required this.child});
 

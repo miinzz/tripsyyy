@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Grid sederhana dengan jumlah kolom tetap dan tinggi kartu per baris
-/// disamakan (setara CSS grid dengan `items-stretch`).
 class ResponsiveGrid extends StatelessWidget {
   const ResponsiveGrid({
     super.key,

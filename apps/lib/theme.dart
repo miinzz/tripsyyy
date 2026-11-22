@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Warna setara token Tailwind/shadcn pada versi web.
-/// Sesuaikan nilainya jika token tema web Anda berbeda.
 class AppColors {
   static const background = Color(0xFFFFFFFF);
   static const foreground = Color(0xFF0F172A);
@@ -11,7 +9,6 @@ class AppColors {
   static const card = Color(0xFFFFFFFF);
   static const border = Color(0xFFE2E8F0);
 
-  // Variasi opasitas (setara /70, /80, /60, dst. di Tailwind)
   static const mutedHalf30 = Color(0x4DF1F5F9); // bg-muted/30
   static const white70 = Color(0xB3FFFFFF);
   static const white80 = Color(0xCCFFFFFF);
@@ -32,7 +29,6 @@ class Responsive {
   static bool isMd(BuildContext c) => width(c) >= 768;
   static bool isLg(BuildContext c) => width(c) >= 1024;
 
-  /// Lebar maksimum class `container` Tailwind.
   static double containerMaxWidth(double w) {
     if (w >= 1536) return 1536;
     if (w >= 1280) return 1280;

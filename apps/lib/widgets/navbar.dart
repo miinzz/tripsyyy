@@ -4,8 +4,6 @@ import '../theme.dart';
 import 'app_container.dart';
 import 'tripsy_logo.dart';
 
-/// Navbar tetap di atas (fixed). Link tengah dan tombol auth hanya muncul
-/// di layar md ke atas (>= 768), sama seperti `hidden md:flex` pada web.
 class SiteNavbar extends StatelessWidget {
   const SiteNavbar({super.key});
 

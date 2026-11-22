@@ -21,7 +21,7 @@ class HeroSection extends StatelessWidget {
               semanticLabel: 'Pemandangan tebing dan pantai Indonesia',
             ),
           ),
-          // bg-gradient-to-r from-black/60 via-black/30 to-transparent
+
           const Positioned.fill(
             child: DecoratedBox(
               decoration: BoxDecoration(
