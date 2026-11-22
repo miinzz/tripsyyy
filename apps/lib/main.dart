@@ -12,7 +12,7 @@ class TripsyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tripsy',
+      title: 'Tripsyyy',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
